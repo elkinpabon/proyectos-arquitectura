@@ -1,0 +1,207 @@
+# ============================================================================
+# .NET / C# - Carpetas de compilación y dependencias
+# ============================================================================
+bin/
+obj/
+.vs/
+.vscode/
+packages/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.csproj.user
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# ============================================================================
+# Java - Carpetas de compilación y dependencias
+# ============================================================================
+target/
+.factorypath
+*.jar
+*.class
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+.gradle/
+build/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- PERMITIR archivos de Eclipse (necesarios para que otros desarrolladores usen el proyecto) ---
+# .classpath
+# .project
+# .settings/
+
+# ============================================================================
+# Node.js / npm - Para clientes web
+# ============================================================================
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.npm
+.eslintcache
+dist/
+build/
+coverage/
+
+# ============================================================================
+# Python (si aplica)
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+env/
+.Python
+
+# ============================================================================
+# IDEs y Editores
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+.vim/
+.emacs.desktop
+.emacs.desktop.lock
+
+# ============================================================================
+# Archivos de Sistema Operativo
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================================
+# Logs y archivos temporales
+# ============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.tmp/
+.cache/
+
+# ============================================================================
+# Bases de datos
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.ldf
+
+# ============================================================================
+# Archivos de configuración local
+# ============================================================================
+local.settings.json
+appsettings.local.json
+*.local.config
+.env
+.env.local
+secrets.json
+
+# ============================================================================
+# Archivos de prueba y cobertura
+# ============================================================================
+coverage/
+.coverage
+htmlcov/
+junit.xml
+test-results/
+*.trx
+
+# ============================================================================
+# Compilación de Razor Views (.NET)
+# ============================================================================
+obj/
+PrecompiledWeb/
+
+# ============================================================================
+# Publicación y despliegue
+# ============================================================================
+Publish/
+PublishProfiles/
+publish/
+artifacts/
+dist/
+out/
+_publish/
+
+# ============================================================================
+# Docker
+# ============================================================================
+.docker/
+docker-compose.override.yml
+
+# ============================================================================
+# Archivos específicos del proyecto (según sea necesario)
+# ============================================================================
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.scc
+.scc
+
+# ============================================================================
+# Visual Studio Code
+# ============================================================================
+.vscode/
+.vscode-test
+launch.json
+settings.json
+tasks.json
+extensions.json
+
+# ============================================================================
+# Archivos de recursos y multimedia grandes
+# ============================================================================
+*.iso
+*.dmg
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+
+# ============================================================================
+# Archivos generados por herramientas
+# ============================================================================
+.editorconfig.vscode
+tslint.json
+.prettierignore
+.eslintignore
